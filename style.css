@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(149, 255, 149);
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a:hover {
+    box-shadow: 2px 3px 6px 0 rgb(0, 91, 211);
+    color: rgb(109, 221, 187);
+    transition: 3s linear;
+
+}
+
+main a:hover {
+    box-shadow: 2px 3px 6px 0 rgb(0, 91, 211);
+    color: rgb(109, 221, 187);
+    transition: 3s linear;
+}
+
+header a:focus {
+    color: rgba(147, 255, 165, 0.89);
+}
+
+main a:focus {
+    color: rgba(147, 255, 165, 0.89);
+}
+
+header a {
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 20px;
+    padding: 15px;
+    border: 5px inset red;
+    background-color: cyan;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h1 span{
+    color: rgb(255, 166, 0);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(149, 255, 149);
+    padding: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(174, 30, 210);
+    font-size: 20px;
+    opacity: 0.2;
+}
+
+a:hover {
+    opacity: 1;
+    color: cornflowerblue;
+    transition: 1s linear;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(149, 255, 149);
+    padding: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(174, 30, 210);
+    font-size: 20px;
+    opacity: 0.2;
+}
+
+main a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+main a:hover {
+    color: crimson;
+    box-shadow: 2px 5px 5px 1px darkblue;
+    transition: 0.5s linear;
+}
+
+header a:hover {
+    opacity: 1;
+    color: cornflowerblue;
+    transition: 1s linear;
+}
+
+.text {
+    background-color:rgba(156, 255, 206, 0.616);
+}
+
+.text:hover {
+    font-size: 20px;
+    transition: 0.5s linear;
+}
